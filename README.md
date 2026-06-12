@@ -137,7 +137,7 @@ Drone-Data-Analysis/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Venky-eelaprolu/Drone-Data-Analysis.git
+git clone https://github.com/Venky-eelaprolu/Drone-EDA-and-PowerBI-Dashboard
 ```
 
 2. Open the Power BI file
