@@ -117,12 +117,8 @@ Drone-Data-Analysis/
 
 ## Sample Dashboard
 
-> Add your Power BI Dashboard screenshot here.
-
-```markdown
 <img width="1339" height="728" alt="image" src="https://github.com/user-attachments/assets/5967d7ac-511a-4837-ab79-40475d9730f7" />
 
-```
 
 ---
 
