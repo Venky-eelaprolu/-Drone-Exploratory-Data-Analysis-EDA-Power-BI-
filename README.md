@@ -1,81 +1,175 @@
 # Drone Data Analysis using Web Scraping, EDA & Power BI
 
-### Overview
+## Overview
 
-This project focuses on collecting drone-related data by performing web scraping from `Flipkart`, followed by Exploratory Data Analysis (EDA) and building interactive dashboards using Power BI.
+This project focuses on collecting drone-related product data from Flipkart using Web Scraping techniques, followed by Exploratory Data Analysis (EDA) and interactive dashboard development using Power BI.
 
-The aim is to extract real-world product data and generate meaningful insights such as pricing trends, ratings, and product performance.
+The objective is to extract real-world product information and generate valuable business insights related to pricing, ratings, reviews, and product performance.
 
-### Objectives
+---
 
-- Scrape drone product data from Flipkart
-- Clean and preprocess raw data
-- Perform exploratory data analysis (EDA)
-- Build interactive Power BI dashboards
-- Extract business insights
+## Objectives
 
-### Workflow
+* Scrape drone product data from Flipkart
+* Clean and preprocess raw data
+* Perform Exploratory Data Analysis (EDA)
+* Build interactive Power BI dashboards
+* Extract meaningful business insights
 
-**1. Web Scraping**
-    - Extract product details from Flipkart
-    - Fields collected:
-        - Product Name
-        - Price
-        - Ratings
-        - Reviews
-        - Specifications
-**2. Data Cleaning**
-    - Remove null values
-    - Handle inconsistent formats
-    - Convert price & ratings to numeric
-**3. EDA**
-    - Price distribution
-    - Rating analysis
-    - Correlation between price & ratings
-**4. Visualization**
-    - Built dashboards using Power BI
-    - Interactive filters & slicers
-### Tools & Technologies
-- **Python**
-    - BeautifulSoup / Requests (Web Scraping)
-    - Pandas, NumPy (Data Processing)
-    - Power BI (Visualization)
-    - CSV / Excel (Data Storage)
-### Project Structure
+---
+
+## Project Workflow
+
+### Web Scraping
+
+Collected drone product data from Flipkart using Python.
+
+### Extracted Fields:
+
+* Product Name
+* Price
+* Ratings
+* Reviews
+* Specifications
+
+---
+
+### Data Cleaning
+
+Performed preprocessing to improve data quality:
+
+* Removed missing/null values
+* Handled inconsistent formats
+* Converted price and rating columns into numeric formats
+* Eliminated duplicate records
+
+---
+
+### Exploratory Data Analysis (EDA)
+
+Analyzed the dataset to uncover patterns and trends:
+
+* Price Distribution Analysis
+* Rating Distribution Analysis
+* Brand-wise Product Comparison
+* Correlation between Price and Ratings
+* Review Trend Analysis
+
+---
+
+### Data Visualization
+
+Built interactive dashboards using Power BI:
+
+* Dynamic Filters & Slicers
+* KPI Monitoring
+* Product Performance Analysis
+* Trend Visualization
+* Comparative Analysis
+
+---
+
+## Tools & Technologies
+
+| Technology    | Purpose                    |
+| ------------- | -------------------------- |
+| Python        | Data Collection & Analysis |
+| BeautifulSoup | Web Scraping               |
+| Requests      | Fetching Web Pages         |
+| Pandas        | Data Manipulation          |
+| NumPy         | Numerical Analysis         |
+| Power BI      | Dashboard Development      |
+| CSV / Excel   | Data Storage               |
+
+---
+
+## Project Structure
+
+```bash
+Drone-Data-Analysis/
+│
 ├── Scraper/
-
 │   └── flipkart_scraper.py
-
+│
 ├── Dataset/
-
 │   └── drone_data.csv
-
+│
 ├── PowerBI/
-
 │   └── Drone_EDA.pbix
-
+│
 ├── Images/
-
 │   └── dashboard.png
-
+│
 └── README.md
+```
 
-### Dashboard Features
-  - Price Analysis
-  - Rating Distribution
-  - Product Comparison
-  - Trend Visualization
-  - Interactive Filters
-### Sample Dashboard
-<img width="1325" height="735" alt="image" src="https://github.com/user-attachments/assets/434a491d-78d4-4be0-81e4-f29f507a8441" />
+---
 
-### Key Insights
-  - Mid-range drones have higher ratings
-  - Premium drones don’t always guarantee better reviews
-  - Certain brands dominate the market
-  - Price vs Rating shows weak correlation
-### How to Use
-1. Download the .pbix file
-2. Open in Power BI Desktop
-3. Load dataset if required
-4. Explore interactive dashboards
+## Dashboard Features
+
+* Price Analysis
+* Rating Distribution
+* Product Comparison
+* Trend Visualization
+* Interactive Filters & Slicers
+
+---
+
+## Sample Dashboard
+
+> Add your Power BI Dashboard screenshot here.
+
+```markdown
+![Dashboard](Images/dashboard.png)
+```
+
+---
+
+## Key Insights
+
+* Mid-range drones generally receive higher customer ratings.
+* Premium-priced drones do not always guarantee better reviews.
+* Certain brands dominate the drone marketplace.
+* Price and ratings exhibit a weak correlation.
+* Customer reviews play a significant role in product popularity.
+
+---
+
+## How to Use
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Venky-eelaprolu/Drone-Data-Analysis.git
+```
+
+2. Open the Power BI file
+
+```text
+Drone_EDA.pbix
+```
+
+3. Load the dataset if required
+
+4. Explore the interactive dashboard and insights
+
+---
+
+## Business Value
+
+This project demonstrates how web scraping, data analysis, and business intelligence tools can be combined to transform raw e-commerce data into actionable insights for decision-making.
+
+---
+
+## Author
+
+### Venkata Durga Rao Eelaprolu
+
+* Generative AI Enthusiast
+* Data Analytics & Business Intelligence
+* Machine Learning & AI Applications
+
+#### Connect With Me
+
+* GitHub: https://github.com/Venky-eelaprolu
+* LinkedIn: https://www.linkedin.com/in/venkyeelaprolu6303266966/
